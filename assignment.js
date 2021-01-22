@@ -9,15 +9,15 @@ function kilometerToMeter(kmValue) {
   }
 }
 
-function budgetCalculator(watchQuatity, mobileQuatity, laptopQuatity) {
-  if (watchQuatity >= 1 && mobileQuatity >= 1 && laptopQuatity >= 1) {
+function budgetCalculator(watchQuantity, mobileQuantity, laptopQuantity) {
+  if (watchQuantity >= 1 && mobileQuantity >= 1 && laptopQuantity >= 1) {
     var perWatch = 50;
     var perMobile = 100;
     var perLaptop = 500;
 
-    var watchPrice = perWatch * watchQuatity;
-    var mobilePrice = perMobile * mobileQuatity;
-    var laptopPrice = perLaptop * laptopQuatity;
+    var watchPrice = perWatch * watchQuantity;
+    var mobilePrice = perMobile * mobileQuantity;
+    var laptopPrice = perLaptop * laptopQuantity;
 
     var totalPrice = watchPrice + laptopPrice + mobilePrice;
 
